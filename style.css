@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    text-align: center;
+    background-color: #08518B;
+    color:black ;
+    padding: 5% ;
+
+}
+
+.nome_da_marca{
+    padding-right: 45%;
+}
+
+
+.header_img{
+    padding-left: 20%;
+}
+
+footer{
+    background-color: rgb(252, 177, 245);
+}
+
+
+
+body{
+    background-color:white;
+    
+    
+
+}
+/* container do nome da marca*/
+.container{
+    padding: 5%;
+    background-color:#08518B;
+    text-align: center;
+    font-size: 120%;
+
+    
+
+}
+nav ul{
+    text-align: center;
+    background-color: #A5AC0B;
+    color: black;
+    display: flex;
+    height: 50px;
+    margin: 0%;
+}
+
+nav li{
+    width:25%;
+   
+}
+
+footer{
+    background-color: #A5AC0B;
+}
+
+.menu1, .menu2, .menu3, .menu4{
+    width:25% ;
+}
+main{
+    text-align: center;
+    padding: 1%;
+    background-color: #08518B;
+    display: flex;
+    padding-left: 5%;
+    margin-top: 5%;
+    
+}
+
+aside{
+    padding-left: 5%;
+    text-align: center;
+    width: 30%;
+
+
+}
+
+section{
+
+    padding: 1px;
+    color:rgb(5, 5, 5);
+    width:70% ;
+    
+}
+
+
+/*Página inicial*/
+.conjunto_de_produtos_A{
+    display: flex;
+}
+.produto1, .produto2, .produto3{
+    padding:50px;
+    text-align: 33,3%;
+    height: 120px;
+}
+
+/*Pág Fotos*/
+.fotos_da_loja{
+
+}
+
