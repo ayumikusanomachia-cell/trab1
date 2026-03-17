@@ -1,20 +1,81 @@
+.container{
+    width: 90%;
+    margin: auto;
+    justify-items: center;
+    
+}
+
 header{
     display: flex;
-    text-align: center;
+    flex: 6;
+    text-align:center;
     background-color: #08518B;
     color:black ;
     padding: 5% ;
+    height: 100px;
+    justify-content: center;
+    
+    
+
+
+}
+header h1{
+    flex:2;
+    align-items:center;
+    font-size: 60px;
+    padding: 0px 100px 0px 100px;
+    width: 700px;
+}
+
+
+header img{
+    width: 150px;
+    height: 150px;
+    border: solid #A5AC0B 3px;
+    border-radius: 75px;
+   
 
 }
 
-.nome_da_marca{
-    padding-right: 45%;
+.menu-lateral {
+    text-align: center;
+    height: 50px;
+    margin: 20px;
+    text-decoration:none;
+    padding-bottom: 10px;
+    flex:1;
+    flex: block;
+    display:1;
+    
+
 }
 
+.menu-lateral li{
+    font-size: 20px;
+    list-style: none;
+    gap:10px;
+    padding: 10px;
+    
 
-.header_img{
-    padding-left: 20%;
 }
+
+.menu-lateral a{
+    display: block;
+    text-decoration: none;
+    color: #A5AC0B;
+    border-radius: 15%;
+    background-color: transparent;
+    border: solid 1px  #A5AC0B;
+    gap:15px;
+    padding-bottom: 10px;
+
+}
+
+.menu-lateral a:hover{
+    background-color: white;
+
+}
+
 
 footer{
     background-color: rgb(252, 177, 245);
@@ -24,7 +85,7 @@ footer{
 
 body{
     background-color:white;
-    
+    display:5;
     
 
 }
@@ -38,8 +99,8 @@ body{
     
 
 }
-nav ul{
-    text-align: center;
+
+.menu-topo {
     background-color: #A5AC0B;
     color: black;
     display: flex;
@@ -47,9 +108,27 @@ nav ul{
     margin: 0%;
 }
 
-nav li{
+.menu-topo ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-topo li{
     width:25%;
+    list-style: none;
    
+}
+
+.menu-topo a{
+     text-decoration: none;
+    color: black;
+    
+}
+
+.menu-topo a:hover{
+    background-color: white;
+
 }
 
 footer{
@@ -64,27 +143,29 @@ main{
     padding: 1%;
     background-color: #08518B;
     display: flex;
-    padding-left: 5%;
     margin-top: 5%;
+    flex:6;
     
 }
 
 aside{
     padding-left: 5%;
     text-align: center;
-    width: 30%;
+    flex:2;
 
 
 }
 
 section{
 
-    padding: 1px;
+    padding: 5px;
+    margin-left: 200px;
     color:rgb(5, 5, 5);
-    width:70% ;
-    
+    flex:3;
+    height:300px;
+    text-align: justify;
 }
-
+    
 
 /*Página inicial*/
 .conjunto_de_produtos_A{
@@ -94,10 +175,5 @@ section{
     padding:50px;
     text-align: 33,3%;
     height: 120px;
-}
-
-/*Pág Fotos*/
-.fotos_da_loja{
-
 }
 
