@@ -1,3 +1,21 @@
+/*Link para conectar aos ícones*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+/*Link para conectar as novas fontes:*/
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=DynaPuff:wght@400..700&family=Indie+Flower&family=Oi&family=Rubik+Moonrocks&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
+/*Código das fontes novas:
+font-family: "DynaPuff", system-ui; --> menu lateral
+font-family: "Alkatra", system-ui; --> main
+font-family: "Indie Flower", cursive; --> body and bottons
+font-family: "Rubik Moonrocks", sans-serif; --> header h1
+font-family: "Mystery Quest", system-ui; --> aside
+*/
+
+
+
 .container{
     width: 90%;
     margin: auto;
@@ -10,7 +28,7 @@ header{
     flex: 6;
     text-align:center;
     background-color: #08518B;
-    color:black ;
+    color: rgb(0, 0, 0) ;
     padding: 5% ;
     height: 100px;
     justify-content: center;
@@ -25,6 +43,7 @@ header h1{
     font-size: 60px;
     padding: 0px 100px 0px 100px;
     width: 700px;
+    font-family: "Rubik Moonrocks", sans-serif;
 }
 
 
@@ -37,6 +56,16 @@ header img{
 
 }
 
+main{
+    text-align: center;
+    padding: 1%;
+    background-color: #08518B;
+    display: flex;
+    margin-top: 5%;
+    flex:6;
+    font-family: "Alkatra", system-ui;
+}
+
 .menu-lateral {
     text-align: center;
     height: 50px;
@@ -46,15 +75,24 @@ header img{
     flex:1;
     flex: block;
     display:1;
+    width: 10000px;
+    font-family: "DynaPuff", system-ui;
+
     
 
 }
 
 .menu-lateral li{
-    font-size: 20px;
+    font-size: 15px;
     list-style: none;
     gap:10px;
     padding: 10px;
+    color: #A5AC0B;
+    border: solid 1px  #A5AC0B;
+    border-radius: 15%;
+    margin: 5px;
+    
+
     
 
 }
@@ -63,16 +101,14 @@ header img{
     display: block;
     text-decoration: none;
     color: #A5AC0B;
-    border-radius: 15%;
     background-color: transparent;
-    border: solid 1px  #A5AC0B;
     gap:15px;
     padding-bottom: 10px;
 
 }
 
 .menu-lateral a:hover{
-    background-color: white;
+    background-color: #ffffff;
 
 }
 
@@ -84,11 +120,18 @@ footer{
 
 
 body{
-    background-color:white;
+    background-color:#ffffff;
     display:5;
-    
+    font-family: "Indie Flower", cursive;
+    text-align:center;
 
 }
+
+footer{
+    background-color: rgb(252, 177, 245);
+    text-align:justify;
+}
+
 /* container do nome da marca*/
 .container{
     padding: 5%;
@@ -102,7 +145,7 @@ body{
 
 .menu-topo {
     background-color: #A5AC0B;
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     height: 50px;
     margin: 0%;
@@ -122,36 +165,33 @@ body{
 
 .menu-topo a{
      text-decoration: none;
-    color: black;
+    color: #000;
     
 }
 
 .menu-topo a:hover{
-    background-color: white;
+    background-color: rgb(255,255, 255);
 
 }
 
 footer{
     background-color: #A5AC0B;
+
 }
 
 .menu1, .menu2, .menu3, .menu4{
     width:25% ;
 }
-main{
-    text-align: center;
-    padding: 1%;
-    background-color: #08518B;
-    display: flex;
-    margin-top: 5%;
-    flex:6;
+
+  
     
-}
+
 
 aside{
     padding-left: 5%;
     text-align: center;
     flex:2;
+    font-family: "Mystery Quest", system-ui;
 
 
 }
@@ -171,9 +211,42 @@ section{
 .conjunto_de_produtos_A{
     display: flex;
 }
+
 .produto1, .produto2, .produto3{
     padding:50px;
     text-align: 33,3%;
     height: 120px;
 }
+
+button{
+
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    gap:15px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-family: "Indie Flower", cursive;
+}
+
+.fotos_da_loja{
+    display:flex;
+    height: 300px;
+    width: 30%;
+    gap: 1.5%;
+    margin: 1.5%;
+    
+}
+
+.fotos_de_clientes{
+    display:flex;
+    height: 500px;
+    width: 30%;
+    gap: 1.5%;
+    margin: 1.5%;
+
+
+}
+
 
